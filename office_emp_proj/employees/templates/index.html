@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Office Employee Management System</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <style>
+      body {
+        background: linear-gradient(135deg, #4e73df, #1cc88a);
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .main-card {
+        background: white;
+        padding: 40px;
+        border-radius: 15px;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        text-align: center;
+        width: 100%;
+        max-width: 600px;
+      }
+
+      .btn-custom {
+        width: 100%;
+        margin-bottom: 15px;
+        padding: 12px;
+        font-size: 18px;
+        border-radius: 10px;
+      }
+
+      h1 {
+        font-weight: 700;
+        margin-bottom: 25px;
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <div class="main-card">
+      <h1>Employee Management System</h1>
+      <hr>
+
+      <a class="btn btn-primary btn-custom" href="/all_emp">
+        View All Employees
+      </a>
+
+      <a class="btn btn-success btn-custom" href="/add_emp">
+        Add an Employee
+      </a>
+
+      <a class="btn btn-danger btn-custom" href="/remove_emp">
+        Remove an Employee
+      </a>
+
+      <a class="btn btn-warning btn-custom" href="/filter_emp">
+        Filter Employee Details
+      </a>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
